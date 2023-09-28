@@ -51,29 +51,16 @@ export const actions = [
 
 export const github = [
   {
-    title: "olympus-v3",
-    href: "https://github.com/OlympusDAO/olympus-v3",
+    title: "ft33-contracts",
+    href: "https://github.com/friendtech33-DAO/ft33-contracts",
     icon: CodeBracketIcon,
   },
   {
-    title: "olympus-contracts (OLD)",
-    href: "https://github.com/OlympusDAO/olympus-contracts",
+    title: "ft33-frontend",
+    href: "https://github.com/friendtech33-DAO/ft33-frontend",
     icon: CodeBracketIcon,
   },
-  {
-    title: "olympus-frontend",
-    href: "https://github.com/OlympusDAO/olympus-frontend",
-    icon: CodeBracketIcon,
-  },
-  {
-    title: "@olympusdao/incur-debt",
-    href: "https://github.com/OlympusDAO/incur-debt-ts",
-  },
-  {
-    title: "protocol-metrics-subgraph",
-    href: "https://github.com/OlympusDAO/olympus-protocol-metrics-subgraph",
-    icon: CodeBracketIcon,
-  },
+
 ];
 
 export const Guides = [
@@ -422,7 +409,7 @@ export default function Home() {
         <Row>
           <Link
             style={{ textDecoration: "none" }}
-            href={"https://discord-invite.olympusdao.finance/"}
+            href={""}
           >
             <CenterCard>
               <Discord style={{ width: "48px", height: "48px" }} />
@@ -432,7 +419,7 @@ export default function Home() {
               </div>
             </CenterCard>
           </Link>
-          <Link
+          {/* <Link
             style={{ textDecoration: "none" }}
             href={"https://forum.olympusdao.finance/"}
           >
@@ -443,11 +430,11 @@ export default function Home() {
                 <p>Discuss governance and more.</p>
               </div>
             </CenterCard>
-          </Link>
+          </Link> */}
 
           <Link
             style={{ textDecoration: "none" }}
-            href={"https://github.com/OlympusDAO"}
+            href={"https://github.com/friendtech33-DAO"}
           >
             <CenterCard>
               <StyledGithubIcon>
