@@ -68,12 +68,7 @@ export const Guides = [
     title: "What is friendtech33 Protocol?",
     text: "An overview of the friendtech33 protocol",
     to: "./main/overview/intro",
-  },
-  {
-    title: "What is Range Bound Stability?",
-    text: "An overview of the RBS",
-    to: "./main/overview/range-bound",
-  },
+  }
 ];
 
 const Container = styled.div`
