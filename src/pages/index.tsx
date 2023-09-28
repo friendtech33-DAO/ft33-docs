@@ -250,7 +250,7 @@ export default function Home() {
               textAlign: "center",
               display: "flex",
               flexDirection: "column",
-              alignItems: "center",
+              alignItems: "bottom",
             }}
           >
             <h1 style={{ fontWeight: "600" }}> Welcome to the friendtech33 Docs</h1>
