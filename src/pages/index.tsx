@@ -264,7 +264,7 @@ export default function Home() {
         <DocsHeader>
           <div
             style={{
-              padding: "5rem 0  ",
+              padding: "5.5rem 0  ",
               textAlign: "center",
               display: "flex",
               flexDirection: "column",
