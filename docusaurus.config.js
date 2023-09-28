@@ -38,7 +38,7 @@ const config = {
           routeBasePath: "/main", // defaults to docs, but `main` maintains the gitbook paths
           sidebarPath: require.resolve("./sidebars.js"),
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/friendtech33-DAO/blob/main",
+          editUrl: "https://github.com/friendtech33-DAO/ft33-docs/blob/main",
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -154,7 +154,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} friendtech33 DAO`,
+        copyright: `Copyright © ${new Date().getFullYear()} Olympus DAO`,
       },
       prism: {
         theme: lightCodeTheme,
