@@ -29,7 +29,7 @@ Ethereum Virtual Machine, is a state machine in which all Ethereum accounts and 
 
 ## Liquidity Bonds
 
-Liquidity bonds are LP token bonds. Examples are OHM-DAI LP bonds and OHM-FRAX LP bonds.
+Liquidity bonds are LP token bonds. Examples are FTW-DAI LP bonds and FTW-FRAX LP bonds.
 
 ## PCV
 
@@ -41,7 +41,7 @@ Protocol Owned Liquidity, is the amount of LP the treasury owns and controls. Th
 
 ## PoR
 
-Proof of Reserve, is the mechanism of strengthening the reserve of OlympusDAO treasury via the sales of bonds. Bonders provide liquidity to the treasury, thereby building its reserve. In return for their service, bonders get paid in OHM.
+Proof of Reserve, is the mechanism of strengthening the reserve of OlympusDAO treasury via the sales of bonds. Bonders provide liquidity to the treasury, thereby building its reserve. In return for their service, bonders get paid in FTW.
 
 ## Reserve Bonds
 
@@ -49,23 +49,23 @@ Reserve bonds are single asset bonds. Examples are DAI bonds and FRAX bonds.
 
 ## Reward Rate
 
-Reward rate is the configured percentage of OHM distributed to all stakers on each rebase relative to the total supply. The reward rate is precisely set by the policy team.
+Reward rate is the configured percentage of FTW distributed to all stakers on each rebase relative to the total supply. The reward rate is precisely set by the policy team.
 
 ## Reward Yield
 
-Reward yield refers to the actual amount of OHM received by each staker on each rebase. The reward yield is a rough target from a policy point of view. It can almost never be maintained precisely due to e.g. fluctuating amounts of OHM staked.
+Reward yield refers to the actual amount of FTW received by each staker on each rebase. The reward yield is a rough target from a policy point of view. It can almost never be maintained precisely due to e.g. fluctuating amounts of FTW staked.
 
 ## RFV
 
-Risk Free Value, is the amount of funds the treasury guarantees to use for backing OHM.
+Risk Free Value, is the amount of funds the treasury guarantees to use for backing FTW.
 
 ## SLP
 
-Sushiswap Liquidity Provider, is the token received when providing liquidity on Sushiswap. For instance LP bonds require SLP tokens of the OHM / DAI pair.
+Sushiswap Liquidity Provider, is the token received when providing liquidity on Sushiswap. For instance LP bonds require SLP tokens of the FTW / DAI pair.
 
 ## TVL
 
-Total Value Locked, is the dollar amount of all OHM staked in the protocol. This metric is often used as growth or health indicator in DeFi projects.
+Total Value Locked, is the dollar amount of all FTW staked in the protocol. This metric is often used as growth or health indicator in DeFi projects.
 
 ## TaaS
 

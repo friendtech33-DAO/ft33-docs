@@ -2,7 +2,7 @@
 
 ## Distributor
 
-The distributor contract receives minted OHM from the treasury in order to drip-feed rewards to stakers. The reward rate target as of time of writing is set to 1587, which translates to 0.1587% of total supply, since the reward rate is defined in tens of thousands. Note that the reward rate determines the rebase rate and that the rebase rate determines the APY. Below are listed distributor contracts by version, where the latest version represents the currently active contract.
+The distributor contract receives minted FTW from the treasury in order to drip-feed rewards to stakers. The reward rate target as of time of writing is set to 1587, which translates to 0.1587% of total supply, since the reward rate is defined in tens of thousands. Note that the reward rate determines the rebase rate and that the rebase rate determines the APY. Below are listed distributor contracts by version, where the latest version represents the currently active contract.
 
 * V1 [0xbe73...242f](https://etherscan.io/address/0xbe731507810C8747C3E01E62c676b1cA6F93242f)
 * V2 [0xce65...f4c4](https://etherscan.io/address/0xce6568338708400d03f430d29f2eb40a33a3f4c4)
@@ -17,10 +17,10 @@ LP staking is deprecated. You can unstake your LP via Etherscan still.
 
 * V1 [0xF11f...2223](https://etherscan.io/address/0xF11f0F078BfaF05a28Eac345Bb84fcb2a3722223)
 
-## OHM Staking
+## FTW Staking
 
 Prior to [V1.1  migration](https://olympusdao.medium.com/olympus-v1-1-a5c6a48be7d1),
-the old staking contract (V1) was used for staking OHM. Afterwards, a new staking
+the old staking contract (V1) was used for staking FTW. Afterwards, a new staking
 contract (V2) was rolled out, which  works with a staking helper (V2, Staking Helper).
 The staking helper contract calls "stake" and then "claim" of the new staking contract.
 When the "stake" function is called, sOHM is put into a warmup phase and all the

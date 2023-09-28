@@ -2,7 +2,7 @@
 sidebar_position: 1
 sidebar_label: Governance
 ---
-# Olympus Governance
+# friendtech33 Governance
 
 
 This document outlines the [governance system](https://github.com/OlympusDAO/bophades2/blob/fully/governance/src/policies/Governance.sol) for OlympusDAO V3 (Bophades).
@@ -36,7 +36,7 @@ The governance system also utilizes the following parameter variables:
 Proposals in the governance system are stored lists of Kernel instructions that specify a change to the underlying protocol smart contracts like new mechanisms or upgrades to existing features. For specific details around these instructions, please view the Bophades Kernel documentation.
 
 
-The Olympus governance system can be roughly broken into three 3 parts:
+The friendtech33 governance system can be roughly broken into three 3 parts:
 
 1. Submission & Endorsement
 2. Active Voting & Execution
@@ -75,7 +75,7 @@ Once a proposal is active, governance participants vote on whether or not its in
 
 #### Counting Votes: Net Votes
 
-The Olympus Governance system uses a unique method to measure determining whether a vote is considered passed. While most governance systems use a simple quorum threshold and majority voting, our governance system uses a passing criteria called **net votes**, which is calculated as the margin of votes between yes and no. For example, if there are 10 **yes votes** and 3 **no votes** for a given proposal, then that proposal has 7 **net votes**. 
+The friendtech33 Governance system uses a unique method to measure determining whether a vote is considered passed. While most governance systems use a simple quorum threshold and majority voting, our governance system uses a passing criteria called **net votes**, which is calculated as the margin of votes between yes and no. For example, if there are 10 **yes votes** and 3 **no votes** for a given proposal, then that proposal has 7 **net votes**. 
 
 In the governance system, the percentage of total voting supply that a proposal must reach in net votes is determined by the `EXECUTION THRESHOLD`, which is initially set to 33% of the circulating votes. 
 

@@ -6,7 +6,7 @@
 
 Price oracle data storage
 
-*The Olympus Price Oracle contract provides a standard interface for OHM price data against a reserve asset.         It also implements a moving average price calculation (same as a TWAP) on the price feed data over a configured         duration and observation frequency. The data provided by this contract is used by the Olympus Range Operator to         perform market operations. The Olympus Price Oracle is updated each epoch by the Olympus Heart contract.*
+*The friendtech33 Price Oracle contract provides a standard interface for FTW price data against a reserve asset.         It also implements a moving average price calculation (same as a TWAP) on the price feed data over a configured         duration and observation frequency. The data provided by this contract is used by the friendtech33 Range Operator to         perform market operations. The friendtech33 Price Oracle is updated each epoch by the friendtech33 Heart contract.*
 
 ## Methods
 
@@ -118,7 +118,7 @@ Change the update thresholds for the price feeds
 
 | Name | Type | Description |
 |---|---|---|
-| ohmEthUpdateThreshold_ | uint48 | - Maximum allowed time between OHM/ETH price feed updates |
+| ohmEthUpdateThreshold_ | uint48 | - Maximum allowed time between FTW/ETH price feed updates |
 | reserveEthUpdateThreshold_ | uint48 | - Maximum allowed time between Reserve/ETH price feed updates |
 
 ### cumulativeObs
@@ -161,7 +161,7 @@ Number of decimals in the price values provided by the contract.
 function getCurrentPrice() external view returns (uint256)
 ```
 
-Get the current price of OHM in the Reserve asset from the price feeds
+Get the current price of FTW in the Reserve asset from the price feeds
 
 
 
@@ -178,7 +178,7 @@ Get the current price of OHM in the Reserve asset from the price feeds
 function getLastPrice() external view returns (uint256)
 ```
 
-Get the last stored price observation of OHM in the Reserve asset
+Get the last stored price observation of FTW in the Reserve asset
 
 
 
@@ -195,7 +195,7 @@ Get the last stored price observation of OHM in the Reserve asset
 function getMovingAverage() external view returns (uint256)
 ```
 
-Get the moving average of OHM in the Reserve asset over the defined window (see movingAverageDuration and observationFrequency).
+Get the moving average of FTW in the Reserve asset over the defined window (see movingAverageDuration and observationFrequency).
 
 
 
@@ -370,7 +370,7 @@ Array of price observations. Check nextObsIndex to determine latest data point.
 function ohmEthPriceFeed() external view returns (contract AggregatorV2V3Interface)
 ```
 
-OHM/ETH price feed
+FTW/ETH price feed
 
 
 
@@ -387,7 +387,7 @@ OHM/ETH price feed
 function ohmEthUpdateThreshold() external view returns (uint48)
 ```
 
-Maximum expected time between OHM/ETH price feed updates
+Maximum expected time between FTW/ETH price feed updates
 
 
 
@@ -421,7 +421,7 @@ Reserve/ETH price feed
 function reserveEthUpdateThreshold() external view returns (uint48)
 ```
 
-Maximum expected time between OHM/ETH price feed updates
+Maximum expected time between FTW/ETH price feed updates
 
 
 

@@ -7,7 +7,7 @@ deprecated, but their contracts are still listed here for reference.
 # V2 Bonds
 
 There is only one V2 bond contract, which manages bonds of various types (e.g.
-OHM-DAI LP bonds, FRAX reserve bonds etc.).
+FTW-DAI LP bonds, FRAX reserve bonds etc.).
 
 * [0x9025...1ef6](https://etherscan.io/address/0x9025046c6fb25fb39e720d97a8fd881ed69a1ef6)
 
@@ -55,20 +55,20 @@ Since ETH is not an ERC-20 token itself, our ETH bonds utilize
 
 * V1 [0x10C0...D08D](https://etherscan.io/address/0x10C0f93f64e3C8D0a1b0f4B87d6155fd9e89D08D)
 
-## OHM / DAI LP Bond
+## FTW / DAI LP Bond
 
 * V1 [0xd270...ff29](https://etherscan.io/address/0xd27001d1aaed5f002c722ad729de88a91239ff29)
 * V2 [0x13e8...8536](https://etherscan.io/address/0x13e8484a86327f5882d1340ed0d7643a29548536)
 * V3 [0x9966...1626](https://etherscan.io/address/0x996668c46fc0b764afda88d83eb58afc933a1626)
 * V4 [0x956c...c151](https://etherscan.io/address/0x956c43998316b6a2F21f89a1539f73fB5B78c151)
 
-## OHM / FRAX LP Bond
+## FTW / FRAX LP Bond
 
 * V1 [0x539b...3776](https://etherscan.io/address/0x539b6c906244ac34e348bbe77885cdfa994a3776)
 * V2 [0xc20c...02f7](https://etherscan.io/address/0xc20cfff07076858a7e642e396180ec390e5a02f7)
 * V3 [0x99e9...aa53](https://etherscan.io/address/0x99e9b0a9dc965361c2cbc07525ea591761aeaa53)
 
-## OHM / LUSD LP Bond
+## FTW / LUSD LP Bond
 
 * V1 [0xFB17...67b6](https://etherscan.io/address/0xFB1776299E7804DD8016303Df9c07a65c80F67b6)
 

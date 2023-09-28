@@ -4,11 +4,11 @@ sidebar_position: 0
 
 # Overview
 
-Olympus V3 is the current and latest iteration of the Olympus protocol. It is a foundation for the future of the protocol, utilizing the [Default Framework](https://github.com/fullyallocated/Default) to allow extensibility at the base layer via fully onchain governance mechanisms. There are a few major pieces to V3: the core registry (Kernel), treasury, minter, governor, and finally, the range-bound stability (RBS) system.
+friendtech33 V3 is the current and latest iteration of the friendtech33 protocol. It is a foundation for the future of the protocol, utilizing the [Default Framework](https://github.com/fullyallocated/Default) to allow extensibility at the base layer via fully onchain governance mechanisms. There are a few major pieces to V3: the core registry (Kernel), treasury, minter, governor, and finally, the range-bound stability (RBS) system.
 
 ## Default Framework: Kernel, Modules and Policies Summary
 
-Olympus V3 uses the [Default Framework](https://github.com/fullyallocated/Default) to configure the protocol’s smart contracts and authorized addresses within the system. In this framework, all contract dependencies and authorizations are managed via “Actions” in the Kernel.sol contract. These actions are as follows:
+friendtech33 V3 uses the [Default Framework](https://github.com/fullyallocated/Default) to configure the protocol’s smart contracts and authorized addresses within the system. In this framework, all contract dependencies and authorizations are managed via “Actions” in the Kernel.sol contract. These actions are as follows:
 
 - Installing a Module
 - Upgrading a Module
@@ -22,13 +22,13 @@ All non-Kernel smart contracts in the protocol are either _Module Contracts_ or 
 
 #### Ownership Model: The Executor
 
-While most protocols have ownership defined at the contract level, Default's philosophy is to define ownership at the protocol level, within the Kernel. This is the function of the Kernel's Executor—it is the address that has the ability to execute actions within the Kernel. In Default, the executor defaults to the Deployer, but this can be set to any address using the Kernel Action _ChangeExecutor_: it's entirely possible to have a Kernel managed by a single wallet, or a multisig, but it can also be a contract. In Olympus V3, the Kernel's owner will be the Governance (Policy) contract.
+While most protocols have ownership defined at the contract level, Default's philosophy is to define ownership at the protocol level, within the Kernel. This is the function of the Kernel's Executor—it is the address that has the ability to execute actions within the Kernel. In Default, the executor defaults to the Deployer, but this can be set to any address using the Kernel Action _ChangeExecutor_: it's entirely possible to have a Kernel managed by a single wallet, or a multisig, but it can also be a contract. In friendtech33 V3, the Kernel's owner will be the Governance (Policy) contract.
 
 #### Kernel Migration
 
 The last and final action that can be performed by the Kernel is `MigrateKernel`. This action is particularly sensitive and should only be done with the utmost care attention to detail. In Default, any contract that is installed or configured in a Kernel.sol needs to have an internal variable that points to the contract address of instance of the Kernel it is intended for. As a result, the same instance of a Module or a Policy cannot be reused across other Kernels. However, there may be circumstances in the future where new changes are made to the Kernel, like new Actions that are developed, gas optimizations found, or security improvements made that warrant porting the protocol contracts to a new instance of a Kernel without redeploying the contracts.
 
-The `MigrateKernel` Action reconfigures the internal variable for each contract registered in the Kernel, which will brick it. There are no forseeable plans to use this action in Olympus V3, but it's important to be aware of its' existence.
+The `MigrateKernel` Action reconfigures the internal variable for each contract registered in the Kernel, which will brick it. There are no forseeable plans to use this action in friendtech33 V3, but it's important to be aware of its' existence.
 
 ### Modules
 
@@ -36,9 +36,9 @@ Modules are **internal-facing smart contracts** that store shared state across t
 
 In Default protocols, Module contracts are referenced internally as a 5 byte uppercase `KEYCODE` representing their underlying data models. For example, an ERC20 token module might have the keycode `TOKEN`, while a Treasury module might have the keycode `TRSRY`. This abstraction is intended to help clarify and distinguish where side effects occur when the protocol experiences external interactions, which should simplify both reading, writing and auditing its business logic.
 
-In Olympus V3, we have the following Modules:
+In friendtech33 V3, we have the following Modules:
 
-- `MINTR` — The Minter Module, a wrapper for the `OHM` ERC20 contract. Used for minting and burning OHM. A wrapper is used to allow the legacy ERC20 to fit in the Default architecture.
+- `MINTR` — The Minter Module, a wrapper for the `FTW` ERC20 contract. Used for minting and burning FTW. A wrapper is used to allow the legacy ERC20 to fit in the Default architecture.
 - `TRSRY` — The Treasury Module, used for depositing and withdrawing assets within the protocol. Also manages token debt allocated to policies.
 - `PRICE` — Used to store historical price oracle data. Used for the functionality of the Range-Bound Stability (RBS) system.
 - `RANGE` — Stores range information for the RBS system.
@@ -57,18 +57,18 @@ In Default protocols, Policies must declare their dependencies to the Kernel as 
 
 Policies are not "stateless": they can store their own state. However, unlike Modules, the state in Policies should only be used internally, and never as part of another contract's logic. One mental model you can use is that Policies store local state in the protocol, while Modules store global state: if you find that any state is re-used across multiple Policies, it should most likely be abstracted into a Module.
 
-The following Policies are included in Olympus V3:
+The following Policies are included in friendtech33 V3:
 
 Range-Bound Stability (RBS) policies:
 
 - `Operator.sol` — Main policy for the Range-Bound Stability system. Inputs market orders, spins up bond markets and facilitates swaps with the treasury in line with the RBS spec (#Range-Bound Stability (RBS) system).
-- `BondCallback.sol` — Used as a callback for bond markets. Allows bond markets to mint OHM for payouts.
+- `BondCallback.sol` — Used as a callback for bond markets. Allows bond markets to mint FTW for payouts.
 - `Heart.sol` — Contract to allow easy access for keepers to call RBS keeper functions.
 - `PriceConfig.sol` — Used for a specified role to adjust parameters in the `PRICE` module
 
 Cooler Loans policies:
 
-- `Clearinghouse.sol` — Clearinghouse is a lender-owned contract that manages loan workflows including fulfilling requests, extending maturities, claiming defaults and rebalancing funds to/from Olympus Treasury.
+- `Clearinghouse.sol` — Clearinghouse is a lender-owned contract that manages loan workflows including fulfilling requests, extending maturities, claiming defaults and rebalancing funds to/from friendtech33 Treasury.
 
 Governance policies (NOTE: Still have not been deployed):
 
@@ -78,12 +78,12 @@ Governance policies (NOTE: Still have not been deployed):
 General protocol and management policies:
 
 - `TreasuryCustodian.sol` — Utility policy for allowing a specified role to modify `TRSRY` state in abnormal circumstances. Used for granting and removing approvals and managing debt.
-- `Distributor.sol` - Contract for handling rebase emissions for OHM stakers.
+- `Distributor.sol` - Contract for handling rebase emissions for FTW stakers.
 - `RolesAdmin.sol` - Policy for managing the `ROLES` module.
 - `Emergency.sol` - Emergency contract to shutdown and restart core systems in special cases.
 
 ### Protocol Architecture
 
-The following diagram represents all the active modules and polices that take part in Olympus V3.
+The following diagram represents all the active modules and polices that take part in friendtech33 V3.
 
-![Olympus V3](/gitbook/assets/security-diagrams/olympus-v3.svg)
+![friendtech33 V3](/gitbook/assets/security-diagrams/olympus-v3.svg)

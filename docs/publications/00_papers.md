@@ -1,6 +1,6 @@
 # Protocol Related Papers
 
-[Zeus, indigo - Liquid Interest Rate Markets Through Olympus Bonds](/main/technical/publications/bonds)
+[Zeus, indigo - Liquid Interest Rate Markets Through friendtech33 Bonds](/main/technical/publications/bonds)
 
 [Zeus et al - Stabilizing Currency Through a Protocol Enforced Range](https://ohm.fyi/gentle-pegging)
 

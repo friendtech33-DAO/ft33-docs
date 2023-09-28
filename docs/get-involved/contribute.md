@@ -6,7 +6,7 @@ OlympusDAO is building a global, community-owned and decentralized economy so we
 can introduce stability and transparency back into financial markets and create
 financial inclusion for all.
 
-OlympusDAO exists to support projects that bring value to the OHM economy. The
+OlympusDAO exists to support projects that bring value to the FTW economy. The
 DAO is driven by the following values:
 
 - Community-run

@@ -1,6 +1,6 @@
 # Addresses
 
-## Olympus V3 Contracts
+## friendtech33 V3 Contracts
 ### Kernel
 | Contract | Chain    | Address                                                                                                                        |
 | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -145,7 +145,7 @@
 ### Version 1 and Version 2 Contracts
 | Contract                                    | Chain     | Address                                                                                                                          |
 | ------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| OHM V2                                      | Mainnet   | [`0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5`](https://etherscan.io/address/0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)          |
+| FTW V2                                      | Mainnet   | [`0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5`](https://etherscan.io/address/0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)          |
 |                                             | Arbitrum  | [`0xf0cb2dc0db5e6c66B9a70Ac27B06b878da017028`](https://arbiscan.io/token/0xf0cb2dc0db5e6c66B9a70Ac27B06b878da017028)             |
 |                                             | Optimism  | [`0x060cb087a9730E13aa191f31A6d86bFF8DfcdCC0`](https://optimistic.etherscan.io/address/0x060cb087a9730E13aa191f31A6d86bFF8DfcdCC0)             |
 |                                             | Goerli    | [`0x0595328847AF962F951a4f8F8eE9A3Bf261e4f6b`](https://goerli.etherscan.io/address/0x0595328847AF962F951a4f8F8eE9A3Bf261e4f6b)   |
@@ -177,9 +177,9 @@
 | OP Market Creator (for inverse bonds) (old) | Mainnet   | [`0xb1fA0Ac44d399b778B14af0AAF4bCF8af3437ad1`](https://etherscan.io/address/0xb1fA0Ac44d399b778B14af0AAF4bCF8af3437ad1)          |
 |                                             | Goerli    | [`0x0C9D01FbD07cC2fD3e09bD953bb65698351AF05D`](https://goerli.etherscan.io/address/0x0C9D01FbD07cC2fD3e09bD953bb65698351AF05D)   |
 | DAI Token                                   | Goerli    | [`0x41e38e70a36150D08A8c97aEC194321b5eB545A5`](https://goerli.etherscan.io/address/0x41e38e70a36150D08A8c97aEC194321b5eB545A5)   |
-| OHM-DAI Balancer LP Pool                    | Goerli    | [`0xd8833594420dB3D6589c1098dbDd073f52419Dba`](https://goerli.etherscan.io/address/0xd8833594420dB3D6589c1098dbDd073f52419Dba)   |
+| FTW-DAI Balancer LP Pool                    | Goerli    | [`0xd8833594420dB3D6589c1098dbDd073f52419Dba`](https://goerli.etherscan.io/address/0xd8833594420dB3D6589c1098dbDd073f52419Dba)   |
 | WETH Token (for keeper rewards)             | Goerli    | [`0x0Bb7509324cE409F7bbC4b701f932eAca9736AB7`](https://goerli.etherscan.io/address/0x0Bb7509324cE409F7bbC4b701f932eAca9736AB7)   |
-| Mock OHM/ETH Price Feed                     | Goerli    | [`0x022710a589C9796dce59A0C52cA4E36f0a5e991A`](https://goerli.etherscan.io/address/0x022710a589C9796dce59A0C52cA4E36f0a5e991A)   |
+| Mock FTW/ETH Price Feed                     | Goerli    | [`0x022710a589C9796dce59A0C52cA4E36f0a5e991A`](https://goerli.etherscan.io/address/0x022710a589C9796dce59A0C52cA4E36f0a5e991A)   |
 | Mock DAI/ETH Price Feed                     | Goerli    | [`0xdC8E4eD326cFb730a759312B6b1727C6Ef9ca233`](https://goerli.etherscan.io/address/0xdC8E4eD326cFb730a759312B6b1727C6Ef9ca233)   |
 | Bond Auctioneer                             | Goerli    | [`0x007F7A1cb838A872515c8ebd16bE4b14Ef43a222`](https://goerli.etherscan.io/address/0x007F7A1cb838A872515c8ebd16bE4b14Ef43a222)   |
 | Bond Aggregator                             | Goerli    | [`0x007A66A2a13415DB3613C1a4dd1C942A285902d1`](https://goerli.etherscan.io/address/0x007A66A2a13415DB3613C1a4dd1C942A285902d1)   |

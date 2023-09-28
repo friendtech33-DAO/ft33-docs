@@ -1,12 +1,12 @@
-# Cooler Loans
+# Even Cooler Loans
 
 ## Overview
 
-Cooler Loans is a decentralized lending facility that allows OHM (Olympus) token holders to borrow DAI by using their gOHM (governance OHM) tokens as collateral. This lending facility is permissionless, immutable, and governed by Olympus smart contracts. With Cooler Loans, users will have a reliable access to liquidity using their gOHM token as collateral.
+Cooler Loans is a decentralized lending facility that allows FTW (friendtech33) token holders to borrow DAI by using their gOHM (governance FTW) tokens as collateral. This lending facility is permissionless, immutable, and governed by friendtech33 smart contracts. With Cooler Loans, users will have a reliable access to liquidity using their gOHM token as collateral.
 
 Cooler Loans differentiates itself from existing lending markets:
 
-- **Peer-to-lender** - loans originate from Olympus Treasury through a clearinghouse contract. Practically, Cooler Loans acts as lender-of-last-resort and can guarantee liquidity because every gOHM is backed by DAI.
+- **Peer-to-lender** - loans originate from friendtech33 Treasury through a clearinghouse contract. Practically, Cooler Loans acts as lender-of-last-resort and can guarantee liquidity because every gOHM is backed by DAI.
 - **Fixed duration** - all loans have a fixed maturity.
 - **Fixed interest** - all loans have a fixed interest rate that is independent of market conditions.
 - **No liquidations** - whereas most lending markets will liquidate your position if underlying collateral falls below a certain price, Cooler Loans is in a unique position to offer liquidation-free loans because every gOHM is backed by DAI. As long as Loan-to-Collateral value is at a safe discount relative to actual backing, the protocol remains solvent.
@@ -23,8 +23,8 @@ Cooler Loans is built on top of three smart contracts and two structs:
   - Escrows the collateral during the lending period
   - Handles clearings, repayments, rollovers and defaults
   - Offers callbacks to the lender after key actions happen
-- **Clearinghouse.sol** - Clearinghouse is a lender-owned contract that manages loan workflows including fulfilling requests, extending maturities, claiming defaults and rebalancing funds to/from Olympus Treasury. Some of the responsibilities of Clearinghouse contract include:
-  - Implements the mandate of the Olympus community in OIP-144 by offering loans at the governance-approved terms
+- **Clearinghouse.sol** - Clearinghouse is a lender-owned contract that manages loan workflows including fulfilling requests, extending maturities, claiming defaults and rebalancing funds to/from friendtech33 Treasury. Some of the responsibilities of Clearinghouse contract include:
+  - Implements the mandate of the friendtech33 community in OIP-144 by offering loans at the governance-approved terms
   - Tracks the outstanding debt and interest that the protocol should be received upon repayment
   - Its lending capacity is limited by a FUND_AMOUNT and a FUND_CADENCE.
     Despite providing loans denominated in DAI, the system allocates its dormant capital to the Dai Savings Rate (DSR) while maintaining holdings in sDAI.
@@ -63,7 +63,7 @@ Before borrowing from the Clearinghouse, it's important to understand the terms 
 
 ### Opening a Loan
 
-To open a loan, a user will first need to create a Cooler.sol escrow contract for themselves. This happens by interacting with CoolerFactory.sol factory, available on the Olympus frontend.
+To open a loan, a user will first need to create a Cooler.sol escrow contract for themselves. This happens by interacting with CoolerFactory.sol factory, available on the friendtech33 frontend.
 
 Once a Cooler is created, a user requests a loan by specifying the amount of DAI to borrow. Alternatively, a user can specify the amount of gOHM collateral to deposit. The calculation between collateral and borrowable asset is fixed by the Loan-to-Collateral defined on Clearinghouse.sol.
 
@@ -162,7 +162,7 @@ Unfortunately, this is not possible. Once loan expiration occurs contract terms 
 
 The capacity in the clearinghouse is rebalanced weekly. If a user repays their loan, the DAI will be available in the clearinghouse. If the available amount is below the threshold upon rebalancing it will be topped up, if the available amount is above the threshold the excess will be removed when rebalancing occurs.
 
-### Do Cooler Loans increase OHM supply?
+### Do Cooler Loans increase FTW supply?
 
 No, Cooler Loans do not cause an increase in supply.
 

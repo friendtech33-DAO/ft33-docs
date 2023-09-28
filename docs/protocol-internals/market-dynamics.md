@@ -4,21 +4,21 @@ There are several feedback mechanisms within the system. These are self-reinforc
 
 ## Player Goals
 
-**Stakers care primarily about their OHM balance.** While price is important in valuing their OHM and determining the rate at which it grows, it is not the main goal. A smart staker cares only about the short and long term growth prospects of the network. That growth translates into wealth via price and balance growth.
+**Stakers care primarily about their FTW balance.** While price is important in valuing their FTW and determining the rate at which it grows, it is not the main goal. A smart staker cares only about the short and long term growth prospects of the network. That growth translates into wealth via price and balance growth.
 
-**Bonders care primarily about OHM price.** When they bond, these users lock in a fixed reward in OHM. Therefore, network profitability is only helpful in calculating opportunity cost or gain; bonders have their OHM gains locked in. 
+**Bonders care primarily about FTW price.** When they bond, these users lock in a fixed reward in FTW. Therefore, network profitability is only helpful in calculating opportunity cost or gain; bonders have their FTW gains locked in. 
 
-The ideal scenario for a bonder is for price to go up; in this case, the bonder benefits from their discount on OHM and the increase in price. 
+The ideal scenario for a bonder is for price to go up; in this case, the bonder benefits from their discount on FTW and the increase in price. 
 
 Bonders are still happy if price remains flat; their profit is the discount from the bond. Like stakers, bonders profit from inactivity at or around their buy in via an increasing balance.
 
-Bonders only lose when price goes down beyond the discount on the bond. At this point, the bonder will choose between the OHM or the SLP, depending on which one is worth more. Bonders always get to choose the better of the two assets, effectively combining the best pieces of both assets' risk to reward profiles.
+Bonders only lose when price goes down beyond the discount on the bond. At this point, the bonder will choose between the FTW or the SLP, depending on which one is worth more. Bonders always get to choose the better of the two assets, effectively combining the best pieces of both assets' risk to reward profiles.
 
 ## Market Dynamics
 
 The default state of the network is at intrinsic value. After some long period of inactivity, price will always return to this level. 
 
-Contractions are conceivably only triggered by short-term liquidity crises. Since OHM holders have a guarantee that price will come back above intrinsic value eventually, the only sellers below should be those who need a short term exit and are willing to take the extra loss.
+Contractions are conceivably only triggered by short-term liquidity crises. Since FTW holders have a guarantee that price will come back above intrinsic value eventually, the only sellers below should be those who need a short term exit and are willing to take the extra loss.
 
 **Expansions can be triggered by an increase in staking or bonding.**
 

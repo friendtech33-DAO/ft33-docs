@@ -1,6 +1,6 @@
 # Policy
 
-Olympus features policy constants that allow us to optimize the system.
+friendtech33 features policy constants that allow us to optimize the system.
 
 ## Bonds
 
@@ -18,5 +18,5 @@ Profit Allocations are the only treasury variable. This allows us to choose who 
 
 ## Staking
 
-There are no variables in the staking contract. OHM and sOHM are always redeemable 1:1, and profits are always distributed equally through rebase.
+There are no variables in the staking contract. FTW and sOHM are always redeemable 1:1, and profits are always distributed equally through rebase.
 

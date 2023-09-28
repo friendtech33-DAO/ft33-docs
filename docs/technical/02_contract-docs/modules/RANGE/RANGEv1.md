@@ -183,7 +183,7 @@ Get the market ID for a side of the range.
 function ohm() external view returns (contract ERC20)
 ```
 
-OHM token contract address
+FTW token contract address
 
 
 
@@ -249,7 +249,7 @@ Regenerate a side of the range to a specific capacity.Access restricted to activ
 | Name | Type | Description |
 |---|---|---|
 | high_ | bool | - Specifies the side of the range to regenerate (true = high side, false = low side). |
-| capacity_ | uint256 | - Amount to set the capacity to (OHM tokens for high side, Reserve tokens for low side). |
+| capacity_ | uint256 | - Amount to set the capacity to (FTW tokens for high side, Reserve tokens for low side). |
 
 ### reserve
 
@@ -355,7 +355,7 @@ Update the capacity for a side of the range.Access restricted to activated polic
 | Name | Type | Description |
 |---|---|---|
 | high_ | bool | - Specifies the side of the range to update capacity for (true = high side, false = low side). |
-| capacity_ | uint256 | - Amount to set the capacity to (OHM tokens for high side, Reserve tokens for low side). |
+| capacity_ | uint256 | - Amount to set the capacity to (FTW tokens for high side, Reserve tokens for low side). |
 
 ### updateMarket
 
@@ -373,7 +373,7 @@ Update the market ID (cushion) for a side of the range.Access restricted to acti
 |---|---|---|
 | high_ | bool | - Specifies the side of the range to update market for (true = high side, false = low side). |
 | market_ | uint256 | - Market ID to set for the side. |
-| marketCapacity_ | uint256 | - Amount to set the last market capacity to (OHM tokens for high side, Reserve tokens for low side). |
+| marketCapacity_ | uint256 | - Amount to set the last market capacity to (FTW tokens for high side, Reserve tokens for low side). |
 
 ### updatePrices
 

@@ -8,9 +8,9 @@ const katex = require("rehype-katex");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Olympus Docs",
+  title: "friendtech33 Docs",
   tagline: "",
-  url: "https://docs.olympusdao.finance",
+  url: "https://docs.friendtech33.xyz",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "OlympusDAO", // Usually your GitHub org/user name.
-  projectName: "olympus-docs", // Usually your repo name.
+  organizationName: "FT33 DAO", // Usually your GitHub org/user name.
+  projectName: "ft33-docs", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -38,7 +38,7 @@ const config = {
           routeBasePath: "/main", // defaults to docs, but `main` maintains the gitbook paths
           sidebarPath: require.resolve("./sidebars.js"),
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/OlympusDAO/olympus-docs/blob/main",
+          editUrl: "https://github.com/friendtech33-DAO/blob/main",
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -73,9 +73,9 @@ const config = {
       navbar: {
         title: "",
         logo: {
-          alt: "Olympus Docs",
-          src: "img/logo.svg",
-          srcDark: "img/logo_dark.svg",
+          alt: "FT33 Docs",
+          src: "img/logo.png",
+          srcDark: "img/logo.png",
         },
         items: [
           // {
@@ -109,7 +109,7 @@ const config = {
           //   label: "Technical Docs",
           // },
           {
-            href: "https://github.com/OlympusDAO/olympus-docs",
+            href: "https://github.com/friendtech33-DAO/ft33-docs",
             label: "GitHub",
             position: "right",
           },
@@ -132,11 +132,11 @@ const config = {
             items: [
               {
                 label: "Discord",
-                href: "https://discord-invite.olympusdao.finance/",
+                href: "https://discord.gg/QCT7t7xyf",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/OlympusDAO",
+                href: "https://twitter.com/friendtech33",
               },
             ],
           },
@@ -149,12 +149,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/OlympusDAO",
+                href: "https://github.com/friendtech33-DAO",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Olympus DAO`,
+        copyright: `Copyright © ${new Date().getFullYear()} friendtech33 DAO`,
       },
       prism: {
         theme: lightCodeTheme,

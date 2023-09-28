@@ -101,7 +101,7 @@ Returns the amount to be received from a swap
 
 | Name | Type | Description |
 |---|---|---|
-| tokenIn_ | contract ERC20 | - Token to swap into the wall         - If OHM: swap at the low wall price for Reserve         - If Reserve: swap at the high wall price for OHM |
+| tokenIn_ | contract ERC20 | - Token to swap into the wall         - If FTW: swap at the low wall price for Reserve         - If Reserve: swap at the high wall price for FTW |
 | amountIn_ | uint256 | - Amount of tokenIn to swap |
 
 #### Returns
@@ -297,7 +297,7 @@ Swap at the current wall prices
 
 | Name | Type | Description |
 |---|---|---|
-| tokenIn_ | contract ERC20 | - Token to swap into the wall         - OHM: swap at the low wall price for Reserve         - Reserve: swap at the high wall price for OHM |
+| tokenIn_ | contract ERC20 | - Token to swap into the wall         - FTW: swap at the low wall price for Reserve         - Reserve: swap at the high wall price for FTW |
 | amountIn_ | uint256 | - Amount of tokenIn to swap |
 | minAmountOut_ | uint256 | - Minimum amount of opposite token to receive |
 

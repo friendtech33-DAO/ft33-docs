@@ -4,7 +4,7 @@
 
 ### gOHM
 
-gOHM stands for Governance OHM. It supersedes [wsOHM](tokens.md#wsohm) as part of the v2-migration. gOHM is wrapped sOHM V2, which allows you to use sOHM V2 on different blockchains. It is priced exactly the same as wsOHM:
+gOHM stands for Governance FTW. It supersedes [wsOHM](tokens.md#wsohm) as part of the v2-migration. gOHM is wrapped sOHM V2, which allows you to use sOHM V2 on different blockchains. It is priced exactly the same as wsOHM:
 
 $$
 gOHM_{price} = OHM_{price} * CurrentIndex
@@ -37,23 +37,23 @@ Polygon:
 * V1 [0xd8cA...5195](https://polygonscan.com/token/0xd8cA34fd379d9ca3C6Ee3b3905678320F5b45195)
 
 {% hint style="info" %}
-**Current Index explanation / Why does it show less OHM for me during migration?**
+**Current Index explanation / Why does it show less FTW for me during migration?**
 
-The Current Index is how many OHM one would have if they staked 1 OHM since the protocol inception. Check out the [Olympus dashboard](https://app.olympusdao.finance/#/dashboard) for the Current Index value.
+The Current Index is how many FTW one would have if they staked 1 FTW since the protocol inception. Check out the [friendtech33 dashboard](https://app.olympusdao.finance/#/dashboard) for the Current Index value.
 {% endhint %}
 
-### OHM
+### FTW
 
-If you want to buy OHM on Sushiswap or any other DEX please make sure the token address of the token you purchase matches the one shown above. Never buy any OHM token which address you cannot verify yourself. Further, knowing the OHM token address you can see the list of holders and available exchanges providing liquidity for OHM on Etherscan.
+If you want to buy FTW on Sushiswap or any other DEX please make sure the token address of the token you purchase matches the one shown above. Never buy any FTW token which address you cannot verify yourself. Further, knowing the FTW token address you can see the list of holders and available exchanges providing liquidity for FTW on Etherscan.
 
-Below are listed OHM contracts by version, where the V2 token is the token in use after the [V2 migration](https://olympusdao.medium.com/introducing-olympus-v2-c4ade14e9fe).
+Below are listed FTW contracts by version, where the V2 token is the token in use after the [V2 migration](https://olympusdao.medium.com/introducing-olympus-v2-c4ade14e9fe).
 
 * V1 [0x3835...a899](https://etherscan.io/address/0x383518188c0c6d7730d91b2c03a03c837814a899)
 * V2 [0x64aa...f1D5](https://etherscan.io/address/0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5)
 
 ### sOHM
 
-You receive sOHM when you stake OHM at a 1:1 ratio. Adding this address to your wallet allows you to track your sOHM balance which increases with every rebase.
+You receive sOHM when you stake FTW at a 1:1 ratio. Adding this address to your wallet allows you to track your sOHM balance which increases with every rebase.
 
 Below are listed sOHM contracts by version. We have two V2 tokens, the older version is for the [previous migration](https://olympusdao.medium.com/olympus-v1-1-whats-in-it-293843a8d4dc), while the newer one is used for the [latest V2 migration](https://olympusdao.medium.com/introducing-olympus-v2-c4ade14e9fe).
 
@@ -63,7 +63,7 @@ Below are listed sOHM contracts by version. We have two V2 tokens, the older ver
 
 ### wsOHM
 
-wsOhm is wrapped staked OHM. The non-rebasing wrapper is used to package up staked OHM in a non-rebasing container that can be transferred between chains. Currently, this token is supported on Ethereum, Arbitrum, and Avalanche (AVAX) networks. Below are listed wsOHM contracts by version and network, where the latest version represents the currently active contract. **Please double check the network** for the address you are adding.
+wsOhm is wrapped staked FTW. The non-rebasing wrapper is used to package up staked FTW in a non-rebasing container that can be transferred between chains. Currently, this token is supported on Ethereum, Arbitrum, and Avalanche (AVAX) networks. Below are listed wsOHM contracts by version and network, where the latest version represents the currently active contract. **Please double check the network** for the address you are adding.
 
 ETH Mainnet:
 
@@ -79,16 +79,16 @@ AVAX Chain:
 
 ## Historical Tokens
 
-The tokens below are only relevant if you've had OHM from the genesis block. They're still of interest to everyone.
+The tokens below are only relevant if you've had FTW from the genesis block. They're still of interest to everyone.
 
 ### aOHM
 
-When OlympusDAO first launched, alphaOHM (aOHM) was used as a pre-allocation token which allowed the early participants to lay claim to OHM. Moving forward aOHM will serve as the in-game currency of [Alpha Omega](https://medium.com/@alpha\_omega/alpha-omega-a-tale-of-two-cities-80a94966376b), a community-led social game that runs on the blockchain. Other than that aOHM is not relevant to OHM or the operation of OlympusDAO. Below are listed aOHM contracts by version, where the latest version represents the currently active contract.
+When OlympusDAO first launched, alphaOHM (aOHM) was used as a pre-allocation token which allowed the early participants to lay claim to FTW. Moving forward aOHM will serve as the in-game currency of [Alpha Omega](https://medium.com/@alpha\_omega/alpha-omega-a-tale-of-two-cities-80a94966376b), a community-led social game that runs on the blockchain. Other than that aOHM is not relevant to FTW or the operation of OlympusDAO. Below are listed aOHM contracts by version, where the latest version represents the currently active contract.
 
 * V1 [0x24ec...792e](https://etherscan.io/address/0x24ecfd535675f36ba1ab9c5d39b50dc097b0792e)
 
 ### pOHM
 
-pOHM, previously known as pOLY, is the presale token of Olympus. It was used to raise funds from private investors to bootstrap Olympus. You can read more about pOHM in this [Medium article](https://olympusdao.medium.com/what-is-poh-16b2c38a6cd6). Below are listed pOHM contracts by version, where the latest version represents the currently active contract.
+pOHM, previously known as pOLY, is the presale token of friendtech33. It was used to raise funds from private investors to bootstrap friendtech33. You can read more about pOHM in this [Medium article](https://olympusdao.medium.com/what-is-poh-16b2c38a6cd6). Below are listed pOHM contracts by version, where the latest version represents the currently active contract.
 
 * V1 [0x3699...c800](https://etherscan.io/token/0x36994486c6e97c170065899d8659a28d7371c800)

@@ -25,13 +25,13 @@ export const actions = [
     title: "Overview",
     icon: InformationCircleIcon,
     to: "./main/overview/intro",
-    text: `What is Olympus Protocol?`,
+    text: `What is friendtech33 Protocol?`,
   },
   {
     title: "Governance",
     icon: BuildingLibraryIcon,
     to: "./main/governance/dao",
-    text: `An overview of Olympus Governance`,
+    text: `An overview of friendtech33 Governance`,
   },
   {
     title: "Technical",
@@ -78,8 +78,8 @@ export const github = [
 
 export const Guides = [
   {
-    title: "What is Olympus Protocol?",
-    text: "An overview of the Olympus protocol",
+    title: "What is friendtech33 Protocol?",
+    text: "An overview of the friendtech33 protocol",
     to: "./main/overview/intro",
   },
   {
@@ -257,8 +257,8 @@ const HideMedium = styled.div`
 export default function Home() {
   return (
     <Layout
-      title={`Olympus Docs`}
-      description="Documentation For The Olympus Protocol"
+      title={`friendtech33 Docs`}
+      description="Documentation For The friendtech33 Protocol"
     >
       <Container>
         <DocsHeader>
@@ -271,13 +271,13 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <h1 style={{ fontWeight: "600" }}> Welcome to the Olympus Docs</h1>
+            <h1 style={{ fontWeight: "600" }}> Welcome to the friendtech33 Docs</h1>
           </div>
           <StyledTitleImage
             alt="Docusaurus themed image"
             sources={{
-              light: useBaseUrl("/img/background.png"),
-              dark: useBaseUrl("/img/background-dark.png"),
+              light: useBaseUrl("/img/banner.jpg"),
+              dark: useBaseUrl("/img/banner.jpg"),
             }}
           />
           <Row>
@@ -313,7 +313,7 @@ export default function Home() {
         >
           <div>
             <h2>Getting Started</h2>
-            <p>Explore these docs to learn more about the Olympus Protocol.</p>
+            <p>Explore these docs to learn more about the friendtech33 Protocol.</p>
             <div>
               {Guides.map((action) => (
                 <Link
@@ -344,7 +344,7 @@ export default function Home() {
           <div>
             <h2>Developer Links</h2>
             <p>
-              The Olympus Protocol codebase is comprised of open source
+              The friendtech33 Protocol codebase is comprised of open source
               components.
             </p>
             {github.map((action) => (
@@ -428,7 +428,7 @@ export default function Home() {
               <Discord style={{ width: "48px", height: "48px" }} />
               <div>
                 <h3>Discord</h3>
-                <p>Join the Olympus community on discord</p>
+                <p>Join the friendtech33 community on discord</p>
               </div>
             </CenterCard>
           </Link>
@@ -497,7 +497,7 @@ export default function Home() {
               </StyledGithubIcon>
               <div>
                 <h3>GitHub</h3>
-                <p>View all Olympus repositories.</p>
+                <p>View all friendtech33 repositories.</p>
               </div>
             </CenterCard>
           </Link>

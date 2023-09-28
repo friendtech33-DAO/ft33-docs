@@ -28,7 +28,7 @@
 | Kebabsec | [Link](https://hackmd.io/@12og4u7y8i/HJVAPMlno)                     | February 04, 2023 |
 | Sherlock | [Link](/gitbook/assets/Olympus_Liquidity_Vaults_Audit_Report_1.pdf) | April 13, 2023 |
 
-## Olympus V3
+## friendtech33 V3
 | Auditor      | Link     | Date     |
 | ------------ | -------- | -------- |
 | Spearbit  | [Link](/OlympusDAO-1.pdf)| July 24, 2022 |
@@ -39,13 +39,13 @@
 
 
 
-## Olympus V2
+## friendtech33 V2
 | Auditor  | Link  | Date |
 | -------- | ----- | ---- |
 | Omniscia | [Link](https://omniscia.io/olympus-dao-protocol-v2/) | Nov 23, 2021 |
 
 
-## Olympus V1
+## friendtech33 V1
 | Auditor  | Link  | Date |
 | ---------- | --- |------|
 | PeckShield | [Link](https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-OlympusDAO-v1.0.pdf) | April 9, 2021|

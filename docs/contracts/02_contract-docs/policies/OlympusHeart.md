@@ -2,11 +2,11 @@
 
 
 
-> Olympus Heart
+> friendtech33 Heart
 
-Olympus Heart (Policy) Contract
+friendtech33 Heart (Policy) Contract
 
-*The Olympus Heart contract provides keeper rewards to call the heart beat function which fuels         Olympus market operations. The Heart orchestrates state updates in the correct order to ensure         market operations use up to date information.*
+*The friendtech33 Heart contract provides keeper rewards to call the heart beat function which fuels         friendtech33 market operations. The Heart orchestrates state updates in the correct order to ensure         market operations use up to date information.*
 
 ## Methods
 

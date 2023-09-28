@@ -89,7 +89,7 @@ Change the update thresholds for the price feeds
 
 | Name | Type | Description |
 |---|---|---|
-| ohmEthUpdateThreshold_ | uint48 | - Maximum allowed time between OHM/ETH price feed updates |
+| ohmEthUpdateThreshold_ | uint48 | - Maximum allowed time between FTW/ETH price feed updates |
 | reserveEthUpdateThreshold_ | uint48 | - Maximum allowed time between Reserve/ETH price feed updates |
 
 ### configureDependencies

@@ -4,7 +4,7 @@
 
 
 
-Wrapper for minting and burning functions of OHM token.
+Wrapper for minting and burning functions of FTW token.
 
 
 
@@ -73,7 +73,7 @@ Re-activate minting and burning after shutdown.
 function active() external view returns (bool)
 ```
 
-Status of the minter. If false, minting and burning OHM is disabled.
+Status of the minter. If false, minting and burning FTW is disabled.
 
 
 
@@ -90,7 +90,7 @@ Status of the minter. If false, minting and burning OHM is disabled.
 function burnOhm(address from_, uint256 amount_) external nonpayable
 ```
 
-Burn OHM from an address. Must have approval.
+Burn FTW from an address. Must have approval.
 
 
 
@@ -207,7 +207,7 @@ Mapping of who is approved for minting.
 function mintOhm(address to_, uint256 amount_) external nonpayable
 ```
 
-Mint OHM to an address.
+Mint FTW to an address.
 
 
 
