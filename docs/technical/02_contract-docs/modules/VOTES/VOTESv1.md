@@ -258,10 +258,10 @@ function deposit(uint256 assets, address receiver) external nonpayable returns (
 |---|---|---|
 | shares | uint256 | undefined |
 
-### gOHM
+### sFTW
 
 ```solidity
-function gOHM() external view returns (contract ERC20)
+function sFTW() external view returns (contract ERC20)
 ```
 
 

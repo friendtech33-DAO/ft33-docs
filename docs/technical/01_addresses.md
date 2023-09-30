@@ -151,7 +151,7 @@
 |                                             | Goerli    | [`0x0595328847AF962F951a4f8F8eE9A3Bf261e4f6b`](https://goerli.etherscan.io/address/0x0595328847AF962F951a4f8F8eE9A3Bf261e4f6b)   |
 | sOHM V2                                     | Mainnet   | [`0x04906695D6D12CF5459975d7C3C03356E4Ccd460`](https://etherscan.io/address/0x04906695D6D12CF5459975d7C3C03356E4Ccd460)          |
 |                                             | Goerli    | [`0x4EFe119F4949319f2Acb12efD615a7B63896482B`](https://goerli.etherscan.io/address/0x4EFe119F4949319f2Acb12efD615a7B63896482B)   |
-| gOHM                                        | Mainnet   | [`0x0ab87046fBb341D058F17CBC4c1133F25a20a52f`](https://etherscan.io/address/0x0ab87046fBb341D058F17CBC4c1133F25a20a52f)          |
+| sFTW                                        | Mainnet   | [`0x0ab87046fBb341D058F17CBC4c1133F25a20a52f`](https://etherscan.io/address/0x0ab87046fBb341D058F17CBC4c1133F25a20a52f)          |
 |                                             | Arbitrum  | [`0x8D9bA570D6cb60C7e3e0F31343Efe75AB8E65FB1`](https://arbiscan.io/token/0x8D9bA570D6cb60C7e3e0F31343Efe75AB8E65FB1)             |
 |                                             | Avalanche | [`0x321e7092a180bb43555132ec53aaa65a5bf84251`](https://snowtrace.io/token/0x321e7092a180bb43555132ec53aaa65a5bf84251)            |
 |                                             | Polygon   | [`0xd8cA34fd379d9ca3C6Ee3b3905678320F5b45195`](https://polygonscan.com/token/0xd8cA34fd379d9ca3C6Ee3b3905678320F5b45195)         |

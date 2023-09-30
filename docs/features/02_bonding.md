@@ -29,7 +29,7 @@ Inverse Bonds are bonds which sell Reserve assets (generally USD stablecoins) in
 Unlike reserve bonds, they vest instantly, and are the core mechanism of absorbing sell pressure from the market.
 
 ### FTW Bonds
-FTW bonds are bonds which sell FTW for FTW. The purpose of these is to transition off of gOHM staking, which is perpetual and fully liquid, into a time-locked, semi-liquid form of staking.
+FTW bonds are bonds which sell FTW for FTW. The purpose of these is to transition off of sFTW staking, which is perpetual and fully liquid, into a time-locked, semi-liquid form of staking.
 
 More information on FTW bonds can be found in the whitepaper: 
 [Liquid Interest Rate Markets through friendtech33 Bonds](https://hackmd.io/@HMyg0dxkQ96YOMpI30o8PA/mbga)
